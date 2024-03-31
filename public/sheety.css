@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+/* Custom styling for the code editor -- find ways of organizin this*/
+.code-editor {
+  display: flex;
+  height: 300px;
+  /* Full height of the viewport */
+  overflow-x: hidden;
+}
+
+.logic-buttons {
+  display: flex;
+}
+
+.line-numbers {
+  flex-shrink: 0;
+  /* Don't allow line numbers to shrink */
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  /* Enable vertical scrolling for line numbers */
+  scrollbar-width: thin;
+  /* Firefox */
+}
+
+.line-numbers::-webkit-scrollbar {
+  display: none;
+  /* Hide the scrollbar in WebKit browsers */
+}
+
+#code {
+  flex: 1;
+  /* Take remaining space */
+  min-height: 100%;
+  /* Make sure the textarea takes the full height */
+  resize: vertical;
+  /* Allow vertical resizing */
+  overflow-y: auto;
+  /* Enable vertical scrolling for the text area */
+  scrollbar-width: thin;
+  /* Firefox */
+}
+
+.current-line {
+  background-color: #e2e8f0;
+  /* Highlight color for the current line */
+}
+
+.ssf-div {
+    background-image: url('./SSF.jpg'); /* Set the path to your image file */
+    background-size: cover; /* Adjust how the background image is sized */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* You can add more styling properties as needed */
+  }
+
+  .ssf-div-2 {
+    background-image: url('./Debconf15_group_photo.jpg'); /* Set the path to your image file */
+    background-size: cover; /* Adjust how the background image is sized */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* You can add more styling properties as needed */
+  }
+  
+  @media screen 
+and (min-width: 100px)
+and (max-width: 1400px) {
+    #intro_div {
+        display: block;
+    }
+    #second_div {
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    #child_1_sec_div {
+      width: 90%; /* 1/4 of the container width */
+      margin: 0 auto; /* Center the div horizontally */
+      padding: 20px;
+      text-align: center;
+    }
+    #child_2_sec_div {
+      width: 90%; /* 1/4 of the container width */
+      margin: 0 auto; /* Center the div horizontally */
+      padding: 20px;
+      text-align: center;
+    }
+    #child_3_sec_div {
+      width: 90%; /* 1/4 of the container width */
+      margin: 0 auto; /* Center the div horizontally */
+      padding: 20px;
+      text-align: center;
+    }
+    #child_4_sec_div {
+      width: 90%; /* 1/4 of the container width */
+      margin: 0 auto; /* Center the div horizontally */
+      padding: 20px;
+      text-align: center;
+    }
+    #fourth_div {
+      display: block;
+    }
+    #fifth_section {
+      display: block;
+    }
+    #seventh_section {
+      display: block;
+    }
+    #eigth_section {
+      display: block;
+    }
+  }
